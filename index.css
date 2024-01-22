@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.header {
+    background: #232536;
+}
+
+.header .nav .header_nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.header .header_nav .logo {
+    padding-right: 200px;
+}
+
+.header .nav .header_nav .nav_text {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    opacity: 0.6;
+
+}
+
+.nav_text a {
+    color: #fff
+}
+.nav-_text :hover{
+    color: red;
+    transition: 3ms;
+}
+
+
+
+button {
+    margin-left: 100px;
+    background-color: #232536;
+    border: none;
+    color: #FFD3AF;
+    font-size: 16px;
+    margin-top: 6px;
+}
+.button-tag :hover{
+    color: #FFF;
+    transition: 3ms;
+    
+
+}
+
+.img-icon {
+    margin-top: 5px;
+}
+
+
+
+.Javena-Melo {
+    display: flex;
+    justify-content: center;
+    margin-top: 96px;
+}
+
+.name {
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-weight: 600;
+    color: #232536;
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.CEO {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center
+}
+
+.information {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.87;
+    display: flex;
+    justify-content: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    gap: 26px;
+    height: 26px;
+}
+
+.section1 {
+    background: #ECF8F9;
+    margin-top: 96px;
+    width: 100%;
+    height: 581px;
+}
+
+
+
+.section1-text {
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 13px;
+}
+
+.box1 {
+    margin-top: 96px;
+}
+
+.svg-class {
+    margin-top: 48px;
+}
+
+.information-svgs {
+    display: flex;
+    /* justify-content: space-between; */
+    
+}
+
+
+.svg-information {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 600;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 32px;
+}
+
+.svg-text1 {
+    margin-top: 40px;
+    margin-left: 32px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: -30;
+}
+
+.read-more {
+    margin-left: 32px;
+    margin-top: 24px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    color: #444CFC;
+}
+
+.taxt_font {
+    background-color: #FFF;
+    width: 328px;
+    height: 250px;
+    margin-top: 50px;
+}
+
+.taxt_font .svg-text1 .svg-information .read-more{
+    margin-bottom: 20px;
+}
+
+.image-main{
+    margin-top: 40px;
+    /* gap: 32px; */
+}   
+
+.taxt_font2 {
+    background-color: #FFF;
+    width: 328px;
+    height: 250px;
+    margin-top: 43px;
+}
+
+.section2{
+    display: flex;
+     
+}
+
+
+
+
+.make h5 {
+    margin-top: 5px;
+    color: #232536;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.make p {
+    margin-top: 37px;
+    color: #232536;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+
+.make {
+    margin-top: 96px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    line-height: 30px;
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+
+.service p {
+    color: #232536;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.footer-line {
+    width: 268px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.08);
+    margin-top: 14px;
+}
+
+
+
+
+.contact-us {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 8px;
+    font-family: 'Poppins';
+    font-size: 10px;
+}
+
+.fins {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    font-family: 'Poppins';
+}
+
+.face {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffe6d2;
+    padding: 20px;
+}
+
+
+
+.get {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.text-weight {
+    font-family: Poppins;
+    font-weight: 600;
+}
+.make h3{
+ margin-top: 40px;
+}
+.make h5{
+    margin-top: 28px;
+}
+.img-shape{
+    margin-bottom: 32px;
+}
